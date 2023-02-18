@@ -67,14 +67,14 @@
 
 @media screen and (min-width: 2500px) {
     #txt2img_gallery, #img2img_gallery {
-        object-fit: scale-down;
-        width: 300px;
-        height: 300px;
+        min-height: 768px;
     }
 }
 
 #txt2img_gallery img, #img2img_gallery img{
     object-fit: scale-down;
+    width: 300px;
+    height: 300px;
 }
 #txt2img_actions_column, #img2img_actions_column {
 	margin: 0.35rem 0.75rem 0.35rem 0;	
